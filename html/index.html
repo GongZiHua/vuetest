@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>青岛金生鑫汇挂具有限公司</title>
+	<meta name="keywords" content="青岛金生鑫汇挂具有限公司，热洁炉;热洁炉配件;脱硫;燃烧机;碳化炉">
+	<meta name="description" content="青岛金生鑫汇挂具有限公司，望亭镇华阳村如意路6号，主要经营热洁炉;热洁炉配件;脱硫;燃烧机;碳化炉，86-0512-65088320，如需购买热洁炉;热洁炉配件;脱硫;燃烧机;碳化炉，请联系我们苏州万里海航机电科技有限公司，一流的质量有竞争力的价格是您的不二选择!">
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/swiper.min.css">
+	<script src="../js/index.js"></script>
+	<script src="../js/swiper.min.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+	<!-- 头部 -->
+	<header class="head"></header>
+	<nav class="nav">
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="index.html">挂具脱漆</a></li>
+			<li><a href="index.html">联系我们</a></li>
+			<li><a href="index.html">公司档案</a></li>
+		</ul>
+	</nav>
+	
+	<!-- 轮播 -->
+	<section>
+		<div class="swiper-container swiper-container-horizontal">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide swiper-slide-active" style="width: 100%;">
+		      	<img src="../images/swiper1.jpg" alt="">
+		      </div>
+		      <div class="swiper-slide swiper-slide-next" style="width: 100%;">
+		      	<img src="../images/swiper2.jpg" alt="">
+		      </div>
+		      <div class="swiper-slide" style="width: 100%;">
+		      	<img src="../images/swiper3.jpg" alt="">
+		      </div>
+		    </div>
+		    <!-- Add Pagination -->
+		    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+		    	<span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+		    	<span class="swiper-pagination-bullet"></span>
+		    	<span class="swiper-pagination-bullet"></span>		    	
+		    </div>
+		    <div class="swiper-button-next"></div>
+		    <div class="swiper-button-prev"></div>
+  		</div>
+	</section>
+	<!-- 中间 -->
+	<section>我是中间</section>
+	<!-- 底部 -->
+	<footer>我是底部</footer>
+</body>
+</html>
+<script>
+	$(function(){
+		//初始化轮播
+	    
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay:true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  
+  
+		$(".head").click(function(){
+			alert(1234)
+		})
+	})
+</script>
